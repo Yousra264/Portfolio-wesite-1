@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniChart: Winter 2023 Seasonal Chart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body>
+    <div id="app" style="height:auto">
+        <header class="nav">
+            <div class="banner-image"
+                style="background-image:url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/126529-75vDO7c18zV8.jpg')">
+            </div>
+
+
+            <div class="wrap">
+                <a href="/" class="logo-link">
+                    <svg data-v-e2f25004="" version="1.1" viewbox="0 0 408.8 308.5" class="svg-icon svg-fill"
+                        aria-label="AniChart" style="width: 45px;">
+                        <path fill="#41B1EA" stroke="none" pid="0"
+                            d="M224.8 291.7c21 10.7 44.7 16.8 69.8 16.8 39.2 0 76.8-15 105.5-41.6 8.8-8.4 7.6-18-1-25.5l-30.6-25.8c-8.7-7-16.3-6-25.4.8-13.8 11-30.8 16.7-48.4 16.7-43.6 0-79.3-35.3-79.3-79 0-43.6 35.6-79 79.3-79.2 18.2 0 36 6.2 50 17.8 8.7 7 16.3 8.3 25 1.2L401 69.4c9.4-7.5 10.6-16.7 2.3-25C374.3 16 335.3 0 294.6 0 236 0 185 32.8 158.8 81.2l66 210.5z">
+                        </path>
+                        <path fill="#FEFEFE" stroke="none" pid="1"
+                            d="M107.3 3L0 308.3h83.3l18.2-52.8h90.8l17.7 52.8h83L186 3h-78.7zm13.2 184.8l26-84.6 28.5 84.6h-54.5z">
+                        </path>
+                    </svg>
+
+                </a>
+
+                <div class="seasons">
+                    <a href="/" class="season router-link-exact-active router-link-active">
+                        <div class="season-name">Winter</div>
+                        <div class="season-year">2023</div>
+                    </a>
+                    <a href="/" class="season router-link-exact-active router-link-active">
+                        <div class="season-name">Spring</div>
+                        <div class="season-year">2022</div>
+                    </a>
+                    <a href="/" class="season router-link-exact-active router-link-active">
+                        <div class="season-name">Summer</div>
+                        <div class="season-year">2022</div>
+                    </a>
+                    <a href="/" class="season router-link-exact-active router-link-active">
+                        <div class="season-name">Fall</div>
+                        <div class="season-year">2022</div>
+                    </a>
+                </div>
+                <div class="charts">
+                    <a href="" class="">
+                        <svg data-v-e2f25004="" version="1.1" viewbox="0 0 18 18" class="svg-icon" aria-label="Airing"
+                            style="width: 18px;">
+                            <path pid="0"
+                                d="M14.25 3H3.75a1.5 1.5 0 0 0-1.5 1.5V15a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5V4.5a1.5 1.5 0 0 0-1.5-1.5zM12 1.5v3M6 1.5v3M2.25 7.5h13.5"
+                                _stroke="#EDF1F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            </path>
+                        </svg>
+                        <div class="label">Airing</div>
+                    </a>
+                    <a href="" class="">
+                        <svg data-v-e2f25004="" version="1.1" viewbox="0 0 18 18" class="svg-icon" aria-label="Archive"
+                            style="width: 18px;">
+                            <g clip-path="url(#clip0)" _stroke="#EDF1F5" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path pid="0"
+                                    d="M15.75 6v8.75a1 1 0 0 1-1 1H3.25a1 1 0 0 1-1-1V6M16.25 2.25H1.75a1 1 0 0 0-1 1V5a1 1 0 0 0 1 1h14.5a1 1 0 0 0 1-1V3.25a1 1 0 0 0-1-1zM7.5 9h3">
+                                </path>
+                            </g>
+                            <defs>
+                                <clippath id="clip0">
+                                    <path pid="1" _fill="#fff" d="M0 0h18v18H0z"></path>
+                                </clippath>
+                            </defs>
+                        </svg>
+                        <div class="label">Archive</div>
+                    </a>
+                    <a href="" class="">
+                        <svg data-v-e2f25004="" version="1.1" viewbox="0 0 17 15" class="svg-icon"
+                            aria-label="To be announced" style="width: 18px;">
+                            <path pid="0" d="M9.625 13.125L15.25 7.5 9.625 1.875M1.75 13.125L7.375 7.5 1.75 1.875"
+                                _stroke="#E1E1E4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            </path>
+                        </svg>
+                        <div class="label">TBA</div>
+                    </a>
+                    <a href="" class="">
+                        <svg data-v-e2f25004="" version="1.1" viewbox="0 0 24 24" class="svg-icon" stroke-width="2px"
+                            aria-label="Settings" style="width: 18px;">
+                            <circle pid="0" cx="12" cy="12" r="3"></circle>
+                            <path pid="1"
+                                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                            </path>
+                        </svg>
+                        <div class="label">Settings</div>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <header class="nav-placement">
+            <div class="nav-wrap">
+                
+                <div data-v-623b90a2="" class="nav seasons" id="div1">
+                    <a data-v-623b90a2="" href="/Winter-2023" class="season link router-link-exact-active router-link-active"><svg data-v-623b90a2="" version="1.1" viewbox="0 0 20 22" class="icon svg-icon svg-fill" style="width: 20px;"><path fill="currentColor" stroke="none" pid="0" d="M19.858 12.961c.131-.22.174-.48.119-.73-.122-.557-.685-.912-1.258-.794l-3.902 1.076L11.786 11l3.03-1.513 3.903 1.076c.573.118 1.136-.237 1.258-.795a1.032 1.032 0 0 0-.817-1.222l-2.12-.307 2.37-1.33c.507-.285.68-.916.388-1.409a1.077 1.077 0 0 0-1.45-.377l-2.369 1.33.787-1.938a1.026 1.026 0 0 0-.68-1.3 1.067 1.067 0 0 0-1.337.662L13.756 7.7l-2.695 1.513V6.187l2.91-2.747a1.011 1.011 0 0 0-.08-1.457 1.082 1.082 0 0 0-1.497.077L11.06 3.692v-2.66C11.06.461 10.586 0 10 0c-.587 0-1.062.462-1.062 1.031v2.66l-1.332-1.63a1.082 1.082 0 0 0-1.498-.078 1.011 1.011 0 0 0-.08 1.457l2.91 2.748v3.026L6.244 7.7 5.25 3.877a1.067 1.067 0 0 0-1.336-.662 1.026 1.026 0 0 0-.68 1.3l.786 1.938-2.37-1.33A1.077 1.077 0 0 0 .202 5.5 1.016 1.016 0 0 0 .591 6.91l2.369 1.33-2.12.307a1.032 1.032 0 0 0-.817 1.223c.122.557.685.912 1.258.794l3.902-1.076L8.214 11l-3.03 1.513-3.903-1.076c-.573-.118-1.136.237-1.258.795a1.032 1.032 0 0 0 .818 1.223l2.12.306-2.37 1.33A1.016 1.016 0 0 0 .202 16.5c.293.493.942.662 1.45.378l2.369-1.33-.787 1.937a1.001 1.001 0 0 0 .09.835c.127.213.331.383.59.465a1.067 1.067 0 0 0 1.337-.662l.993-3.824 2.695-1.513v3.027L6.03 18.56a1.011 1.011 0 0 0 .08 1.457 1.082 1.082 0 0 0 1.497-.077l1.333-1.632v2.66C8.94 21.539 9.414 22 10 22s1.06-.462 1.06-1.031v-2.66l1.333 1.63c.1.108.22.194.357.253a1.089 1.089 0 0 0 1.141-.175c.436-.381.471-1.034.08-1.457l-2.91-2.747v-3.027l2.695 1.513.993 3.824c.18.542.78.838 1.336.662.557-.176.862-.758.68-1.3l-.786-1.938 2.37 1.33a1.077 1.077 0 0 0 1.449-.377 1.016 1.016 0 0 0-.389-1.409l-2.37-1.33 2.12-.307c.307-.063.554-.248.699-.493z" _fill="#fff" fill-opacity=".85"></path></svg><div data-v-623b90a2="" class="season-name label">Winter</div></a><a data-v-623b90a2="" href="/Spring-2022" class="season link"><svg data-v-623b90a2="" version="1.1" viewbox="0 0 22 20" class="icon svg-icon svg-fill" style="width: 20px;"><path fill="currentColor" stroke="none" pid="0" d="M2.75 3.125H0C0 8.44 4.31 12.75 9.625 12.75v6.188c0 .378.31.687.688.687h1.374a.69.69 0 0 0 .688-.688V12.75c0-5.315-4.31-9.625-9.625-9.625zm16.5-2.75c-3.618 0-6.763 1.998-8.409 4.95a11.017 11.017 0 0 1 2.535 4.623C18.22 9.446 22 5.355 22 .375h-2.75z" _fill="#fff" fill-opacity=".85"></path></svg><div data-v-623b90a2="" class="season-name label">Spring</div></a><a data-v-623b90a2="" href="/Summer-2022" class="season link"><svg data-v-623b90a2="" version="1.1" viewbox="0 0 22 22" class="icon svg-icon svg-fill" style="width: 20px;"><path fill="currentColor" stroke="none" pid="0" d="M11.81.543l1.096 2.681a.773.773 0 0 0 1.122.365l2.463-1.524c.666-.412 1.496.19 1.31.951l-.689 2.814a.773.773 0 0 0 .694.955l2.889.214c.78.058 1.097 1.034.5 1.54l-2.211 1.87a.773.773 0 0 0 0 1.181l2.21 1.871c.598.506.281 1.482-.5 1.54l-2.888.214a.774.774 0 0 0-.694.956l.689 2.813c.186.76-.644 1.363-1.31.951l-2.462-1.524a.773.773 0 0 0-1.123.365l-1.097 2.68c-.296.725-1.322.725-1.618 0l-1.097-2.68a.773.773 0 0 0-1.123-.365l-2.463 1.524c-.665.412-1.495-.19-1.31-.951l.69-2.814a.773.773 0 0 0-.694-.955l-2.889-.214c-.78-.058-1.098-1.034-.5-1.54l2.21-1.87a.774.774 0 0 0 0-1.181L.806 8.538c-.598-.505-.28-1.481.5-1.539l2.889-.214a.773.773 0 0 0 .694-.955l-.69-2.814c-.185-.76.645-1.363 1.31-.951l2.463 1.524a.773.773 0 0 0 1.123-.365l1.097-2.68c.296-.725 1.322-.725 1.618 0zM16.843 11A5.85 5.85 0 0 0 11 5.156 5.85 5.85 0 0 0 5.156 11 5.85 5.85 0 0 0 11 16.844 5.85 5.85 0 0 0 16.844 11zm-1.375 0a4.474 4.474 0 0 1-4.47 4.469A4.474 4.474 0 0 1 6.532 11 4.474 4.474 0 0 1 11 6.531 4.474 4.474 0 0 1 15.469 11z" _fill="#fff" fill-opacity=".85"></path></svg><div data-v-623b90a2="" class="season-name label">Summer</div></a><a data-v-623b90a2="" href="/Fall-2022" class="season link"><svg data-v-623b90a2="" version="1.1" viewbox="0 0 23 21" class="icon svg-icon svg-fill" style="width: 20px;"><path fill="currentColor" stroke="none" pid="0" d="M21.808.398c-.224-.513-.863-.533-1.13-.05-1.238 2.211-3.454 3.59-5.986 3.59h-3.194c-4.233 0-7.667 3.527-7.667 7.874 0 .288.032.562.06.841 2.548-1.874 6.225-3.466 11.44-3.466a.65.65 0 0 1 .639.657.65.65 0 0 1-.639.656C5.293 10.5 1.036 16.82.094 19.195c-.264.669.048 1.432.698 1.707.655.278 1.398-.046 1.67-.71.06-.148.834-1.965 2.87-3.716 1.294 1.8 3.754 3.52 6.984 3.166 6.27-.467 10.682-6.242 10.682-13.313 0-2.06-.431-4.192-1.19-5.931z" _fill="#fff" fill-opacity=".85"></path></svg><div data-v-623b90a2="" class="season-name label">Fall</div></a>
+                </div>
+                <div data-v-623b90a2="" class="nav other inactive" id="div2" >
+                    <a data-v-623b90a2="" href="/archive" class="link"><svg data-v-623b90a2="" version="1.1" viewbox="0 0 18 18" class="icon svg-icon" style="width: 20px;" aria-label="Archive"><g clip-path="url(#clip0)" _stroke="#EDF1F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="currentColor" fill="none" pid="0" d="M15.75 6v8.75a1 1 0 0 1-1 1H3.25a1 1 0 0 1-1-1V6M16.25 2.25H1.75a1 1 0 0 0-1 1V5a1 1 0 0 0 1 1h14.5a1 1 0 0 0 1-1V3.25a1 1 0 0 0-1-1zM7.5 9h3"></path></g><defs><clippath id="clip2"><path stroke="currentColor" fill="none" pid="1" _fill="#fff" d="M0 0h18v18H0z"></path></clippath></defs></svg><div data-v-623b90a2="" class="label">Archive</div></a><a data-v-623b90a2="" href="/tba" class="link"><svg data-v-623b90a2="" version="1.1" viewbox="0 0 17 15" class="icon svg-icon" style="width: 20px;" aria-label="To be announced"><path stroke="currentColor" fill="none" pid="0" d="M9.625 13.125L15.25 7.5 9.625 1.875M1.75 13.125L7.375 7.5 1.75 1.875" _stroke="#E1E1E4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><div data-v-623b90a2="" class="label">TBA</div></a><a data-v-623b90a2="" href="/airing" class="link"><svg data-v-623b90a2="" version="1.1" viewbox="0 0 18 18" class="icon svg-icon" style="width: 20px;" aria-label="Airing"><path stroke="currentColor" fill="none" pid="0" d="M14.25 3H3.75a1.5 1.5 0 0 0-1.5 1.5V15a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5V4.5a1.5 1.5 0 0 0-1.5-1.5zM12 1.5v3M6 1.5v3M2.25 7.5h13.5" _stroke="#EDF1F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><div data-v-623b90a2="" class="label">Airing</div></a><a data-v-623b90a2="" href="/settings" class="link"><svg data-v-623b90a2="" version="1.1" viewbox="0 0 24 24" class="icon svg-icon" style="width: 20px;" stroke-width="2px" aria-label="Settings"><circle stroke="currentColor" fill="none" pid="0" cx="12" cy="12" r="3"></circle><path stroke="currentColor" fill="none" pid="1" d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg><div data-v-623b90a2="" class="label">Settings</div></a></div>
+            </div>
+            <div data-v-623b90a2="" class="btn nav" onclick="clickbtn()">
+                <svg data-v-623b90a2="" version="1.1" viewbbox="0 0 30 30" class="icon menu svg-icon" style="width: 30px;"><path pid="0" d="M4 15h22M4 5h22M4 25h22" _stroke="#EDF1F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </div>
+        </header>
+       
+
+        <!--Main Content-->
+        <div class="main-content">
+            <div class="chart-view">
+                <div  class="m-filters">
+                    <input data-v-a996d0e0="" placeholder="Filter Anime" class="input">
+                    <svg data-v-a996d0e0="" version="1.1" viewbox="0 0 12 19" class="icon svg-icon svg-fill" style="height: 20px;"><g clip-path="url(#clip0)"><path fill="currentColor" stroke="none" pid="0" d="M9.69 10.688H1.714c-1.518 0-2.287 1.918-1.208 3.039l3.987 4.156c.666.694 1.749.694 2.419 0l3.99-4.156c1.068-1.117.31-3.04-1.212-3.04zM5.7 16.625l-3.99-4.156h7.98L5.7 16.625zM1.71 8.312h7.977c1.517 0 2.287-1.918 1.207-3.039L6.908 1.117a1.666 1.666 0 0 0-2.419 0L.499 5.273C-.57 6.39.189 8.313 1.71 8.313zM5.7 2.375l3.99 4.156H1.71L5.7 2.375z" _fill="#777A9E"></path></g><defs><clippath id="clip1"><path fill="currentColor" stroke="none" pid="1" _fill="#fff" d="M0 0h11.4v19H0z"></path></clippath></defs></svg>
+                </div> 
+                <!-- <div class="section loaded">
+                    <h2 class="m-section-heading">
+                        TV
+                    </h2>
+                </div> -->
+                
+                
+                <div class="main">
+                    <section class="section loaded">
+                        <h2 class="section-heading">
+                            TV
+                            <div class="space"></div>
+                            <div class="uhd"></div>
+                            <div class="filters">
+
+                                <div class="tooltip">
+                                    <svg data-v-fdf3fd16="" version="1.1" viewbox="0 0 19 19" class="icon svg-icon"
+                                        data-v-24d4cdb0="" style="height: 24px;">
+                                        <path pid="0"
+                                            d="M14.25 6.333a2.375 2.375 0 1 0 0-4.75 2.375 2.375 0 0 0 0 4.75zM4.75 11.875a2.375 2.375 0 1 0 0-4.75 2.375 2.375 0 0 0 0 4.75zM14.25 17.417a2.375 2.375 0 1 0 0-4.75 2.375 2.375 0 0 0 0 4.75zM6.8 10.695l5.407 3.151M12.2 5.154l-5.4 3.15"
+                                            _stroke="#777A9E" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                    <span class="tooltip-text">Share</span>
+                                </div>
+                                <div class="tooltip">
+                                    <svg data-v-fdf3fd16="" version="1.1" viewbox="0 0 24 24" class="icon svg-icon"
+                                        data-v-24d4cdb0="" style="height: 24px;">
+                                        <path pid="0"
+                                            d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2v11z"
+                                            _stroke="#777A9E" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path pid="1" d="M12 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" _stroke="#777A9E"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                    <span class="tooltip-text">Chart Image</span>
+                                </div>
+                                <div class="tooltip">
+                                    <svg data-v-fdf3fd16="" version="1.1" viewbox="0 0 19 19" class="icon svg-icon"
+                                        data-v-24d4cdb0="" style="height: 24px;">
+                                        <path pid="0"
+                                            d="M8.708 15.042a6.333 6.333 0 1 0 0-12.667 6.333 6.333 0 0 0 0 12.667zM16.625 16.625l-3.444-3.444"
+                                            _stroke="#777A9E" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                    <span class="tooltip-text">Search</span>
+                                </div>
+                                <div class="tooltip">
+                                    <svg data-v-fdf3fd16="" version="1.1" viewbox="0 0 12 19"
+                                        class="icon svg-icon svg-fill" data-v-24d4cdb0="" style="height: 24px;">
+                                        <g clip-path="url(#clip0)">
+                                            <path fill="currentColor" stroke="none" pid="0"
+                                                d="M9.69 10.688H1.714c-1.518 0-2.287 1.918-1.208 3.039l3.987 4.156c.666.694 1.749.694 2.419 0l3.99-4.156c1.068-1.117.31-3.04-1.212-3.04zM5.7 16.625l-3.99-4.156h7.98L5.7 16.625zM1.71 8.312h7.977c1.517 0 2.287-1.918 1.207-3.039L6.908 1.117a1.666 1.666 0 0 0-2.419 0L.499 5.273C-.57 6.39.189 8.313 1.71 8.313zM5.7 2.375l3.99 4.156H1.71L5.7 2.375z"
+                                                _fill="#777A9E"></path>
+                                        </g>
+                                        <defs>
+                                            <clippath>
+                                                <path fill="currentColor" stroke="none" pid="1" _fill="#fff"
+                                                    d="M0 0h11.4v19H0z"></path>
+                                            </clippath>
+                                        </defs>
+                                    </svg>
+                                    <span data-v-24d4cdb0="" class="tooltip-text">Sort</span>
+                                </div>
+                            </div>
+                        </h2>
+
+                        <!--Card List-->
+                        <div class="card-list">
+                            <!-- Crad 1 -->
+                            <div class="media-card">
+
+                                <div href="" class="cover">
+                                    <div class="background-color"></div>
+                                    <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136430-qzLw8Jt1Wm7x.jpg"
+                                        class="media-image loaded">
+                                    <div class="overlay">
+                                        <a href="" target="_blank" class="title ct1">Vinland Saga SEASON 2</a>
+                                        <div class="studio">
+                                            <a href="" target="_blank" rel="noopener noreferrer">MAPPA</a>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="data">
+                                    <div class="scroller vb vb-invisible" style="position: relative; overflow:hidden ">
+
+                                        <div class="scroller-wrap vb-content"
+                                            style="display: block; overflow: hidden scroll; height: 100%; width: 100%; box-sizing: content-box; padding-right: 20px;">
+
+                                            <div class="body .reveal-external-links">
+                                                <div class="header">
+                                                    <div class="h-left">
+                                                        <div>
+                                                            <div class="episode">24 Episodes airing in</div>
+                                                            <div class="date">January 2023</div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="source">Sequel to Vinland Saga</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="icon-stats">
+                                                        <div class="icon-stat">
+                                                            <svg version="1.1" viewbox="0 0 18 18" class="svg-icon"
+                                                                style="width: 18px;">
+                                                                <path stroke="rgb(var(--color-red))" fill="none" pid="0"
+                                                                    d="M15.63 3.458a4.125 4.125 0 0 0-5.835 0L9 4.253l-.795-.795A4.126 4.126 0 1 0 2.37 9.293l.795.795L9 15.922l5.835-5.835.795-.795a4.125 4.125 0 0 0 0-5.835v0z"
+                                                                    _stroke="#EF5C5C" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round">
+                                                                </path>
+                                                            </svg>
+                                                            <span class="stat">#2</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="external-links-wrap" style="display: none;"> 
+                                                    <div class="section">
+                                                        <a href="https://twitter.com/search?q=%23VINLAND_SAGA" target="_blank" rel="noopener noreferrer" class="hashtag">
+                                                            <svg data-v-e1fa9364="" version="1.1" viewbox="0 0 15 15" class="icon svg-icon" style="width: 18px;"><path pid="0" d="M2.5 5.625h10M2.5 9.375h10M6.25 1.875L5 13.125M10 1.875l-1.25 11.25" _stroke="#76868E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span data-v-e1fa9364="">VINLAND_SAGA</span>
+                                                        </a>
+
+                                                        <div class="external-links">
+                                                            <a data-v-32d01c6a="" href="https://twitter.com/V_SAGA_ANIME" alt="Twitter" target="_blank" rel="noopener noreferrer" class="external-link Twitter">
+                                                                <span data-v-32d01c6a="" class="visually-hidden">Twitter</span><svg data-v-32d01c6a="" version="1.1" viewbox="0 0 15 12" class="icon svg-icon svg-fill" style="width: 14px;"><path fill="#fff" stroke="none" pid="0" d="M4.717 12c5.66 0 8.757-4.617 8.757-8.621 0-.131 0-.262-.01-.392A6.209 6.209 0 0 0 15 1.42a6.218 6.218 0 0 1-1.768.477A3.05 3.05 0 0 0 14.585.22a6.226 6.226 0 0 1-1.954.735A3.096 3.096 0 0 0 10.885.04a3.122 3.122 0 0 0-1.951.319A3.053 3.053 0 0 0 7.582 1.78a2.99 2.99 0 0 0-.195 1.939 8.845 8.845 0 0 1-3.514-.92A8.713 8.713 0 0 1 1.044.554 2.992 2.992 0 0 0 .707 2.76a3.032 3.032 0 0 0 1.29 1.837A3.091 3.091 0 0 1 .6 4.218v.039c0 .7.246 1.377.696 1.919.45.54 1.077.912 1.773 1.05a3.12 3.12 0 0 1-1.39.053c.197.602.58 1.128 1.095 1.506a3.113 3.113 0 0 0 1.78.598A6.238 6.238 0 0 1 0 10.64a8.813 8.813 0 0 0 4.717 1.359" _fill="#fff"></path></svg>
+                                                            </a>
+                                                            <a data-v-32d01c6a="" href="https://vinlandsaga.jp/" alt="Official Site" target="_blank" rel="noopener noreferrer" class="external-link Official Site"><span data-v-32d01c6a="" class="visually-hidden">Official Site</span><svg data-v-32d01c6a="" version="1.1" viewbox="0 0 16 16" class="icon svg-icon" style="width: 14px;"><path stroke="#fff" fill="none" pid="0" d="M8 14.667A6.667 6.667 0 1 0 8 1.333a6.667 6.667 0 0 0 0 13.334z" _stroke="#76868E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path stroke="#fff" fill="none" pid="1" d="M10.827 5.173l-1.414 4.24-4.24 1.414 1.414-4.24 4.24-1.414z" _stroke="#76868E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+                                                        </div>
+                                                    </div>
+                                                    <div data-v-173d0ef9="" class="trailer" style="background-image: url(&quot;https://i.ytimg.com/vi/GY2UAAn8mmo/hqdefault.jpg&quot;);"><svg version="1.1" viewbox="0 0 24 24" class="icon svg-icon" style="width: 24px;"><path pid="0" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" _stroke="#EDF1F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path pid="1" d="M10 8l6 4-6 4V8z" _stroke="#EDF1F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+                                                </div> 
+                                                <div class="description-wrap">
+                                                    <span class="description">The second season of <i>Vinland
+                                                            Saga</i>.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="footer">
+                                        <div class="genres">
+                                            <div class="genre">Action</div>
+                                            <div class="genre">Adventure</div>
+                                            <div class="genre">Drama</div>
+
+                                        </div>
+                                        <div class="highlighter">
+                                            <svg data-v-8ad591f6="" version="1.1" viewbox="0 0 24 24"
+                                                class="icon svg-icon" aria-label="Add HighLight" style="width: 26px;">
+                                                <circle pid="0" cx="12" cy="12" r="10"></circle>
+                                                <path pid="1" d="M12 8v8M8 12h8"></path>
+                                            </svg>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!--Card 2-->
+                            <div class="media-card">
+
+                                <div href="" class="cover">
+                                    <div class="background-color"></div>
+                                    <img src="	https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140596-pKd135sHUz6g.jpg"
+                                        class="media-image loaded">
+                                    <div class="overlay">
+                                        <a href="" target="_blank" class="title ct1">Ijiranaide, Nagatoro-san 2nd
+                                            Attack</a>
+                                        <div class="studio">
+                                            <a href="" target="_blank" rel="noopener noreferrer">OLM</a>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="data">
+                                    <div class="scroller vb vb-invisible" style="position: relative; overflow:hidden ">
+
+                                        <div class="scroller-wrap vb-content"
+                                            style="display: block; overflow: hidden scroll; height: 100%; width: 100%; box-sizing: content-box; padding-right: 20px;">
+
+                                            <div class="body">
+                                                <div class="header">
+                                                    <div class="h-left">
+                                                        <div>
+                                                            <div class="episode">Airing in</div>
+                                                            <div class="date">January 2023</div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="source">Sequel to Ijiranaide, Nagatoro-san</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="icon-stats">
+                                                        <div class="icon-stat">
+                                                            <svg version="1.1" viewbox="0 0 18 18" class="svg-icon"
+                                                                style="width: 18px;">
+                                                                <path stroke="rgb(var(--color-red))" fill="none" pid="0"
+                                                                    d="M15.63 3.458a4.125 4.125 0 0 0-5.835 0L9 4.253l-.795-.795A4.126 4.126 0 1 0 2.37 9.293l.795.795L9 15.922l5.835-5.835.795-.795a4.125 4.125 0 0 0 0-5.835v0z"
+                                                                    _stroke="#EF5C5C" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round">
+                                                                </path>
+                                                            </svg>
+                                                            <span class="stat">#6</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="description-wrap">
+                                                    <span class="description">The second season of <i>Ijiranaide,
+                                                            Nagatoro-san</i>.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="footer">
+                                        <div class="genres">
+                                            <div class="genre">comedy</div>
+                                            <div class="genre">romance</div>
+                                            <div class="genre">Drama</div>
+
+                                        </div>
+                                        <div class="highlighter">
+                                            <svg data-v-8ad591f6="" version="1.1" viewbox="0 0 24 24"
+                                                class="icon svg-icon" aria-label="Add HighLight" style="width: 26px;">
+                                                <circle pid="0" cx="12" cy="12" r="10"></circle>
+                                                <path pid="1" d="M12 8v8M8 12h8"></path>
+                                            </svg>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--Card 3-->
+                            <div class="media-card">
+
+                                <div href="" class="cover">
+                                    <div class="background-color"></div>
+                                    <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142853-87ySltCgo40C.jpg"
+                                        class="media-image loaded">
+                                    <div class="overlay">
+                                        <a href="" target="_blank" class="title ct3">Tokyo Revengers: Seiya
+                                            Kessen-hen</a>
+                                        <div class="studio">
+                                            <a href="" target="_blank" rel="noopener noreferrer"
+                                                style="color: #4F6CF0;">LIDENFILMS</a>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="data">
+                                    <div class="scroller vb vb-invisible" style="position: relative; overflow:hidden ">
+
+                                        <div class="scroller-wrap vb-content"
+                                            style="display: block; overflow: hidden scroll; height: 100%; width: 100%; box-sizing: content-box; padding-right: 20px;">
+
+                                            <div class="body">
+                                                <div class="header">
+                                                    <div class="h-left">
+                                                        <div>
+                                                            <div class="episode">Airing in</div>
+                                                            <div class="date">January 2023</div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="source">Sequel to Tokyo Revengers</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="icon-stats">
+                                                        <div class="icon-stat">
+                                                            <svg version="1.1" viewbox="0 0 18 18" class="svg-icon"
+                                                                style="width: 18px;">
+                                                                <path stroke="rgb(var(--color-red))" fill="none" pid="0"
+                                                                    d="M15.63 3.458a4.125 4.125 0 0 0-5.835 0L9 4.253l-.795-.795A4.126 4.126 0 1 0 2.37 9.293l.795.795L9 15.922l5.835-5.835.795-.795a4.125 4.125 0 0 0 0-5.835v0z"
+                                                                    _stroke="#EF5C5C" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round">
+                                                                </path>
+                                                            </svg>
+                                                            <span class="stat">#7</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="description-wrap">
+                                                    <span class="description">The second season of <i>Tokyo
+                                                            Revengers</i>.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="footer">
+                                        <div class="genres">
+                                            <div data-v-17c2112a class="genre gc3">action</div>
+                                            <div class="genre gc3">drama</div>
+                                            <div class="genre gc3">romance</div>
+                                            <div class="genre gc3">Supernatural</div>
+
+                                        </div>
+                                        <div class="highlighter">
+                                            <svg data-v-8ad591f6="" version="1.1" viewbox="0 0 24 24"
+                                                class="icon svg-icon" aria-label="Add HighLight" style="width: 26px;">
+                                                <circle pid="0" cx="12" cy="12" r="10"></circle>
+                                                <path pid="1" d="M12 8v8M8 12h8"></path>
+                                            </svg>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!--Card 4-->
+                            <div class="media-card">
+
+                                <div href="" class="cover">
+                                    <div class="background-color"></div>
+                                    <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126529-lqu5iGybs8ut.jpg"
+                                        class="media-image loaded">
+                                    <div class="overlay">
+                                        <a href="" target="_blank" class="title ct4">Kyokou Suiri Season 2</a>
+                                        <div class="studio">
+                                            <a href="" target="_blank" rel="noopener noreferrer"
+                                                style="color: hsl(42deg 80% 70%);">Brain's Base</a>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="data">
+                                    <div class="scroller vb vb-invisible" style="position: relative; overflow:hidden ">
+
+                                        <div class="scroller-wrap vb-content"
+                                            style="display: block; overflow: hidden scroll; height: 100%; width: 100%; box-sizing: content-box; padding-right: 20px;">
+
+                                            <div class="body">
+                                                <div class="header">
+                                                    <div class="h-left">
+                                                        <div>
+                                                            <div class="episode">Airing in</div>
+                                                            <div class="date">January 2023</div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="source">Sequel to Tokyo Revengers</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="icon-stats">
+                                                        <div class="icon-stat">
+                                                            <svg version="1.1" viewbox="0 0 18 18" class="svg-icon"
+                                                                style="width: 18px;">
+                                                                <path stroke="rgb(var(--color-red))" fill="none" pid="0"
+                                                                    d="M15.63 3.458a4.125 4.125 0 0 0-5.835 0L9 4.253l-.795-.795A4.126 4.126 0 1 0 2.37 9.293l.795.795L9 15.922l5.835-5.835.795-.795a4.125 4.125 0 0 0 0-5.835v0z"
+                                                                    _stroke="#EF5C5C" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round">
+                                                                </path>
+                                                            </svg>
+                                                            <span class="stat">#8</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="description-wrap">
+                                                    <span class="description">The second season of <i>Kyokou
+                                                            Suiri</i>.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="footer">
+                                        <div class="genres">
+                                            <div data-v-17c2112a class="genre gc4">action</div>
+                                            <div class="genre gc4">comedy</div>
+                                            <div class="genre gc4">mystery</div>
+                                            <div class="genre gc4">romance</div>
+                                            <div class="genre gc4">supernatural</div>
+
+                                        </div>
+                                        <div class="highlighter">
+                                            <svg data-v-8ad591f6="" version="1.1" viewbox="0 0 24 24"
+                                                class="icon svg-icon" aria-label="Add HighLight" style="width: 26px;">
+                                                <circle pid="0" cx="12" cy="12" r="10"></circle>
+                                                <path pid="1" d="M12 8v8M8 12h8"></path>
+                                            </svg>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!--Card 5-->
+
+                            <div class="media-card">
+
+                                <div href="" class="cover">
+                                    <div class="background-color"></div>
+                                    <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151806-s0xKbKa2rGcJ.jpg"
+                                        class="media-image loaded">
+                                    <div class="overlay">
+                                        <a href="" target="_blank" class="title ct1">Tomo-chan wa Onnanoko!</a>
+                                        <div class="studio">
+                                            <a href="" target="_blank" rel="noopener noreferrer">Lay-duce</a>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="data">
+                                    <div class="scroller vb vb-invisible" style="position: relative; overflow:hidden ">
+
+                                        <div class="scroller-wrap vb-content"
+                                            style="display: block; overflow: hidden scroll; height: 100%; width: 100%; box-sizing: content-box; padding-right: 20px;">
+
+                                            <div class="body">
+                                                <div class="header">
+                                                    <div class="h-left">
+                                                        <div>
+                                                            <div class="episode">24 Episodes airing in</div>
+                                                            <div class="date">January 2023</div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="source">Source • Manga</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="icon-stats">
+                                                        <div class="icon-stat">
+                                                            <svg version="1.1" viewbox="0 0 18 18" class="svg-icon"
+                                                                style="width: 18px;">
+                                                                <path stroke="rgb(var(--color-red))" fill="none" pid="0"
+                                                                    d="M15.63 3.458a4.125 4.125 0 0 0-5.835 0L9 4.253l-.795-.795A4.126 4.126 0 1 0 2.37 9.293l.795.795L9 15.922l5.835-5.835.795-.795a4.125 4.125 0 0 0 0-5.835v0z"
+                                                                    _stroke="#EF5C5C" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round">
+                                                                </path>
+                                                            </svg>
+                                                            <span class="stat">#2</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="description-wrap">
+                                                    <span class="description">Boyish high school girl Aizawa Tomo
+                                                        finally manages to tell her childhood friend Jun that she’s got
+                                                        a crush on him. Unfortunately, her confession goes right over
+                                                        his head—he didn’t even realize she was a girl until junior
+                                                        high, and even.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="footer">
+                                        <div class="genres">
+                                            <div class="genre">Action</div>
+                                            <div class="genre">Adventure</div>
+                                            <div class="genre">Drama</div>
+
+                                        </div>
+                                        <div class="highlighter">
+                                            <svg data-v-8ad591f6="" version="1.1" viewbox="0 0 24 24"
+                                                class="icon svg-icon" aria-label="Add HighLight" style="width: 26px;">
+                                                <circle pid="0" cx="12" cy="12" r="10"></circle>
+                                                <path pid="1" d="M12 8v8M8 12h8"></path>
+                                            </svg>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!--Card 6-->
+                            <div class="media-card">
+
+                                <div href="" class="cover">
+                                    <div class="background-color"></div>
+                                    <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142193-2LgjrKQFkNYU.png"
+                                        class="media-image loaded">
+                                    <div class="overlay">
+                                        <a href="" target="_blank" class="title ct5">Eiyuu-ou, Bu wo Kiwameru Tame
+                                            Tenseisu: Soshite, Sekai Saikyou no Minarai Kishi♀</a>
+                                        <div class="studio">
+                                            <a href="" target="_blank" rel="noopener noreferrer"
+                                                style="color: hsl(202deg 80% 70%);">Studio Comet</a>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="data">
+                                    <div class="scroller vb vb-invisible" style="position: relative; overflow:hidden ">
+
+                                        <div class="scroller-wrap vb-content"
+                                            style="display: block; overflow: hidden scroll; height: 100%; width: 100%; box-sizing: content-box; padding-right: 20px;">
+
+                                            <div class="body">
+                                                <div class="header">
+                                                    <div class="h-left">
+                                                        <div>
+                                                            <div class="episode">24 Episodes airing in</div>
+                                                            <div class="date">January 2023</div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="source">Source • Light Novel</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="icon-stats">
+                                                        <div class="icon-stat">
+                                                            <svg version="1.1" viewbox="0 0 18 18" class="svg-icon"
+                                                                style="width: 18px;">
+                                                                <path stroke="rgb(var(--color-red))" fill="none" pid="0"
+                                                                    d="M15.63 3.458a4.125 4.125 0 0 0-5.835 0L9 4.253l-.795-.795A4.126 4.126 0 1 0 2.37 9.293l.795.795L9 15.922l5.835-5.835.795-.795a4.125 4.125 0 0 0 0-5.835v0z"
+                                                                    _stroke="#EF5C5C" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round">
+                                                                </path>
+                                                            </svg>
+                                                            <span class="stat">#22</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="description-wrap">
+                                                    <span class="description">From his deathbed, Hero-King Inglis, the
+                                                        divine knight and master of all he surveys, gazes down on the
+                                                        empire he built with his mighty hand. Having devoted his life to
+                                                        statecraft and his subjects’ well-being, his one unfulfilled
+                                                        wish is to...</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="footer">
+                                        <div class="genres">
+                                            <div class="genre gc5">action</div>
+                                            <div class="genre gc5">Adventure</div>
+                                            <div class="genre gc5">comedy</div>
+                                            <div class="genre gc5">fantasy</div>
+
+                                        </div>
+                                        <div class="highlighter">
+                                            <svg data-v-8ad591f6="" version="1.1" viewbox="0 0 24 24"
+                                                class="icon svg-icon" aria-label="Add HighLight" style="width: 26px;">
+                                                <circle pid="0" cx="12" cy="12" r="10"></circle>
+                                                <path pid="1" d="M12 8v8M8 12h8"></path>
+                                            </svg>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </section>
+
+                    <!--Leftover section-->
+
+                    <section class="section loaded">
+                        <h2 class="section-heading">
+                            Leftovers
+                            <div class="space"></div>
+                            <div class="uhd"></div>
+                        </h2>
+                        <div class="card-list">
+                            <div class="media-card">
+
+                                <div href="" class="cover">
+                                    <div class="background-color"></div>
+                                    <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx138565-CC96lVk70jDY.jpg
+                                    "
+                                        class="media-image loaded">
+                                    <div class="overlay">
+                                        <a href="" target="_blank" class="title lc1">Fumetsu no Anata e Season 2</a>
+                                        <div class="studio">
+                                            <a href="" target="_blank" rel="noopener noreferrer" style="color: hsl(261deg 75% 65%);">Drive</a>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="data">
+                                    <div class="scroller vb vb-invisible" style="position: relative; overflow:hidden ">
+
+                                        <div class="scroller-wrap vb-content"
+                                            style="display: block; overflow: hidden scroll; height: 100%; width: 100%; box-sizing: content-box; padding-right: 20px;">
+
+                                            <div class="body">
+                                                <div class="header">
+                                                    <div class="h-left">
+                                                        <div>
+                                                            <div class="episode">20 Episodes airing  in</div>
+                                                            <div class="date">2022</div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="source">Sequel to Fumetsu no Anata e</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="icon-stats">
+                                                        <div class="icon-stat">
+                                                            <svg version="1.1" viewbox="0 0 18 18" class="svg-icon"
+                                                                style="width: 18px;">
+                                                                <path stroke="rgb(var(--color-red))" fill="none" pid="0"
+                                                                    d="M15.63 3.458a4.125 4.125 0 0 0-5.835 0L9 4.253l-.795-.795A4.126 4.126 0 1 0 2.37 9.293l.795.795L9 15.922l5.835-5.835.795-.795a4.125 4.125 0 0 0 0-5.835v0z"
+                                                                    _stroke="#EF5C5C" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round">
+                                                                </path>
+                                                            </svg>
+                                                            <span class="stat">#2</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="description-wrap">
+                                                    <span class="description">The second season of  <i>Fumetsu no Anata e</i>.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="footer">
+                                        <div class="genres">
+                                            <div class="genre fg1">Action</div>
+                                            <div class="genre fg1">Adventure</div>
+                                            <div class="genre fg1">Drama</div>
+
+                                        </div>
+                                        <div class="highlighter">
+                                            <svg data-v-8ad591f6="" version="1.1" viewbox="0 0 24 24"
+                                                class="icon svg-icon" aria-label="Add HighLight" style="width: 26px;">
+                                                <circle pid="0" cx="12" cy="12" r="10"></circle>
+                                                <path pid="1" d="M12 8v8M8 12h8"></path>
+                                            </svg>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!--leftover card 2-->
+                            <div class="media-card">
+
+                                <div href="" class="cover">
+                                    <div class="background-color"></div>
+                                    <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139092-hpfLw1Yznveh.jpg
+                                    "
+                                        class="media-image loaded">
+                                    <div class="overlay">
+                                        <a href="" target="_blank" class="title lc2">Mairimashita! Iruma-kun 3</a>
+                                        <div class="studio">
+                                            <a href="" target="_blank" rel="noopener noreferrer" style="color: hsl(338deg 73% 60%);">Bandai Namco Pictures</a>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="data">
+                                    <div class="scroller vb vb-invisible" style="position: relative; overflow:hidden ">
+
+                                        <div class="scroller-wrap vb-content"
+                                            style="display: block; overflow: hidden scroll; height: 100%; width: 100%; box-sizing: content-box; padding-right: 20px;">
+
+                                            <div class="body">
+                                                <div class="header">
+                                                    <div class="h-left">
+                                                        <div>
+                                                            <div class="episode">21 Episodes airing  in</div>
+                                                            <div class="date">2022</div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="source">October 2022</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="icon-stats">
+                                                        <div class="icon-stat">
+                                                            <svg version="1.1" viewbox="0 0 18 18" class="svg-icon"
+                                                                style="width: 18px;">
+                                                                <path stroke="rgb(var(--color-red))" fill="none" pid="0"
+                                                                    d="M15.63 3.458a4.125 4.125 0 0 0-5.835 0L9 4.253l-.795-.795A4.126 4.126 0 1 0 2.37 9.293l.795.795L9 15.922l5.835-5.835.795-.795a4.125 4.125 0 0 0 0-5.835v0z"
+                                                                    _stroke="#EF5C5C" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round">
+                                                                </path>
+                                                            </svg>
+                                                            <span class="stat">#2</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="description-wrap">
+                                                    <span class="description">.    This time it's the jungle!    Human boy Suzuki Iruma becomes "grandson" to the great demon Sullivan and begins attending demon school where "Grandpa" serves as chair. Winning friends<i>Fumetsu no Anata e</i>.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="footer">
+                                        <div class="genres">
+                                            <div class="genre lg2">comedy</div>
+                                            <div class="genre lg2">fantasy</div>
+                                            <div class="genre lg2">supernatural</div>
+
+                                        </div>
+                                        <div class="highlighter">
+                                            <svg data-v-8ad591f6="" version="1.1" viewbox="0 0 24 24"
+                                                class="icon svg-icon" aria-label="Add HighLight" style="width: 26px;">
+                                                <circle pid="0" cx="12" cy="12" r="10"></circle>
+                                                <path pid="1" d="M12 8v8M8 12h8"></path>
+                                            </svg>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            
+                            <!--Leftover card 3-->
+                            <div class="media-card">
+
+                                <div href="" class="cover">
+                                    <div class="background-color"></div>
+                                    <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143277-VNK3VEMDjD25.jpg
+                                    "
+                                        class="media-image loaded">
+                                    <div class="overlay">
+                                        <a href="" target="_blank" class="title lc3">Urusei Yatsura (2022)</a>
+                                        <div class="studio">
+                                            <a href="" target="_blank" rel="noopener noreferrer" style="color: hsl(239deg 80% 70%);">David Production</a>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="data">
+                                    <div class="scroller vb vb-invisible" style="position: relative; overflow:hidden ">
+
+                                        <div class="scroller-wrap vb-content"
+                                            style="display: block; overflow: hidden scroll; height: 100%; width: 100%; box-sizing: content-box; padding-right: 20px;">
+
+                                            <div class="body">
+                                                <div class="header">
+                                                    <div class="h-left">
+                                                        <div>
+                                                            <div class="episode">46 Episodes airing  in</div>
+                                                            <div class="date">October 2022</div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="source">Source • Manga</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="icon-stats">
+                                                        <div class="icon-stat">
+                                                            <svg version="1.1" viewbox="0 0 18 18" class="svg-icon"
+                                                                style="width: 18px;">
+                                                                <path stroke="rgb(var(--color-red))" fill="none" pid="0"
+                                                                    d="M15.63 3.458a4.125 4.125 0 0 0-5.835 0L9 4.253l-.795-.795A4.126 4.126 0 1 0 2.37 9.293l.795.795L9 15.922l5.835-5.835.795-.795a4.125 4.125 0 0 0 0-5.835v0z"
+                                                                    _stroke="#EF5C5C" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round">
+                                                                </path>
+                                                            </svg>
+                                                            <span class="stat">#8</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="description-wrap">
+                                                    <span class="description">Tokyo. Tomobiki Town.    Lum, the gorgeous daughter of an invading race of Oni Aliens is smitten with High School student Ataru Moroboshi. A dedicated womanizer, Ataru is unfazed by Lum’s fierce electric shock attacks and continues his.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="footer">
+                                        <div class="genres">
+                                            <div class="genre lg3">Action</div>
+                                            <div class="genre lg3">drama</div>
+                                            <div class="genre lg3">romance</div>
+
+                                        </div>
+                                        <div class="highlighter">
+                                            <svg data-v-8ad591f6="" version="1.1" viewbox="0 0 24 24"
+                                                class="icon svg-icon" aria-label="Add HighLight" style="width: 26px;">
+                                                <circle pid="0" cx="12" cy="12" r="10"></circle>
+                                                <path pid="1" d="M12 8v8M8 12h8"></path>
+                                            </svg>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!--Lieft over card 4-->
+                            <div class="media-card">
+
+                                <div href="" class="cover">
+                                    <div class="background-color"></div>
+                                    <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146438-Q1SyHG1sk8So.jpg
+                                    "
+                                        class="media-image loaded">
+                                    <div class="overlay">
+                                        <a href="" target="_blank" class="title lc4">Eikyuu Shounen: Eternal Boys</a>
+                                        <div class="studio">
+                                            <a href="" target="_blank" rel="noopener noreferrer" style="color: hsl(187deg 80% 70%);">LIDENFILMS</a>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="data">
+                                    <div class="scroller vb vb-invisible" style="position: relative; overflow:hidden ">
+
+                                        <div class="scroller-wrap vb-content"
+                                            style="display: block; overflow: hidden scroll; height: 100%; width: 100%; box-sizing: content-box; padding-right: 20px;">
+
+                                            <div class="body">
+                                                <div class="header">
+                                                    <div class="h-left">
+                                                        <div>
+                                                            <div class="episode">24 Episodes airing  in</div>
+                                                            <div class="date">2022</div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="source">Source • Original</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="icon-stats" style="display: none;">
+                                                        <div class="icon-stat">
+                                                            <svg version="1.1" viewbox="0 0 18 18" class="svg-icon"
+                                                                style="width: 18px;">
+                                                                <path stroke="rgb(var(--color-red))" fill="none" pid="0"
+                                                                    d="M15.63 3.458a4.125 4.125 0 0 0-5.835 0L9 4.253l-.795-.795A4.126 4.126 0 1 0 2.37 9.293l.795.795L9 15.922l5.835-5.835.795-.795a4.125 4.125 0 0 0 0-5.835v0z"
+                                                                    _stroke="#EF5C5C" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round">
+                                                                </path>
+                                                            </svg>
+                                                            <span class="stat">#2</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="description-wrap">
+                                                    <span class="description"><i>The Mature Idol Project</i>   The latest project proposed by Manpuku Etertainment productions, in a bid to revive the company. Experienced in the successes and failures of the business world, 6 middle-aged men now face the many .</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="footer">
+                                        <div class="genres">
+                                            <div class="genre fg2">comedy</div>
+                                            
+
+                                        </div>
+                                        <div class="highlighter">
+                                            <svg data-v-8ad591f6="" version="1.1" viewbox="0 0 24 24"
+                                                class="icon svg-icon" aria-label="Add HighLight" style="width: 26px;">
+                                                <circle pid="0" cx="12" cy="12" r="10"></circle>
+                                                <path pid="1" d="M12 8v8M8 12h8"></path>
+                                            </svg>
+                                            <!---->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
